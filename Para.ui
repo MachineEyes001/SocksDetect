@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ParaClass</class>
+ <widget class="QMainWindow" name="ParaClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>502</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>请按提示输入相关初始化参数</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>481</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:700;&quot;&gt;欢迎使用智能检袜系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>481</width>
+      <height>162</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>袜板脚后跟与罗口位置尺寸差(mm)：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="dx"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>袜板罗口处宽度尺寸（标准/mm）：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="ribtop_width"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>罗口高度尺寸（标准/mm）：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="ribtop_height"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>选择想要处理的袜子颜色：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="type_c">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>白色</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>黑色</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>灰色</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>罗口位置尺寸（要求/cm）：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="num_c">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>12</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>14</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>16</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>18</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>20</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>22</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>24</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>26</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>28</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>30</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>32</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="con"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>像素尺寸—物理尺寸转换参数（测定）：</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>401</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="commitButton">
+       <property name="text">
+        <string>确认</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>100</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancelButton">
+       <property name="text">
+        <string>退出</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>481</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Panel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>502</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>commitButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ParaClass</receiver>
+   <slot>commit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>130</x>
+     <y>334</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>329</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cancelButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ParaClass</receiver>
+   <slot>myclose()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>334</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>382</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dx</sender>
+   <signal>editingFinished()</signal>
+   <receiver>ParaClass</receiver>
+   <slot>dx_finish()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>489</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>496</x>
+     <y>93</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ribtop_width</sender>
+   <signal>editingFinished()</signal>
+   <receiver>ParaClass</receiver>
+   <slot>ribtop_width_finish()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>489</x>
+     <y>198</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>468</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ribtop_height</sender>
+   <signal>editingFinished()</signal>
+   <receiver>ParaClass</receiver>
+   <slot>ribtop_height_finish()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>489</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>type_c</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>ParaClass</receiver>
+   <slot>type_change()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>480</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>593</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>num_c</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>ParaClass</receiver>
+   <slot>num_change()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>464</x>
+     <y>307</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>270</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>con</sender>
+   <signal>editingFinished()</signal>
+   <receiver>ParaClass</receiver>
+   <slot>con_finish()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>188</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>commit()</slot>
+  <slot>dx_finish()</slot>
+  <slot>ribtop_width_finish()</slot>
+  <slot>ribtop_height_finish()</slot>
+  <slot>type_change()</slot>
+  <slot>num_change()</slot>
+  <slot>myclose()</slot>
+  <slot>con_finish()</slot>
+ </slots>
+</ui>

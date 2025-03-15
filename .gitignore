@@ -52,3 +52,11 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# other
+x64/
+.vs/
+bin/
+intermediate/
+
+
